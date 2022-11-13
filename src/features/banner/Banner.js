@@ -2,6 +2,7 @@
 import { Button } from '@mui/material';
 import React, { useState } from 'react';
 import './Banner.css';
+import Search from './Search';
 
 export default function Banner() {
   const [state, setState] = useState(
@@ -23,8 +24,8 @@ export default function Banner() {
 
   return (
     <div className="banner">
-      {state.showSearchDatePicker && <h1>Date picker</h1>}
       <div className="banner__search">
+        {state.showSearchDatePicker && <Search />}
         <Button
           variant="outlined"
           className="banner__searchBtn"

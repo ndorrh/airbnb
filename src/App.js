@@ -8,7 +8,6 @@ const App = () => (
   <div className="app">
     <Header />
     <Home />
-    <h1>Let&apos;s Build Airbnb Clone</h1>
     {/* Home */}
     {/* Header */}
     {/* Banner */}

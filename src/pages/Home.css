@@ -1,3 +1,4 @@
-.home {
-  color: black;
+.cards__section {
+  display: flex;
+  padding: 30px;
 }

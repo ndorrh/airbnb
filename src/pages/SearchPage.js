@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchNearBy from '../features/SearchNeayBy/SearchNearBy';
+import './SearchPage.css';
 
 function SearchPage() {
   return (

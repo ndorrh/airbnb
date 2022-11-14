@@ -1,8 +1,17 @@
+import { Button } from '@mui/material';
 import React from 'react';
+import './SearchNearBy.css';
 
 const SearchNearBy = () => (
   <div className="seachPage__info">
-    <h1>Search results</h1>
+    <p>62 stays . 26 August to 30 August . 2 . guest</p>
+    <h1>Stays nearby</h1>
+
+    <Button variant="outlined">Cancellation Flexibility</Button>
+    <Button variant="outlined"> place</Button>
+    <Button variant="outlined">Price</Button>
+    <Button variant="outlined">Rooms and beds</Button>
+    <Button variant="outlined">More filters</Button>
   </div>
 );
 

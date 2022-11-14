@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Footer from './common/Footer';
 import Header from './common/Header';
 import Home from './pages/Home';
 
@@ -8,11 +9,7 @@ const App = () => (
   <div className="app">
     <Header />
     <Home />
-    {/* Home */}
-    {/* Header */}
-    {/* Banner */}
-    {/* Cards */}
-    {/* Footer */}
+    <Footer />
   </div>
 );
 

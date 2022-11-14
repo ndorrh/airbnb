@@ -45,7 +45,7 @@ const rooms = [
     src: 'https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720',
     title: 'Entire homes',
     description: 'Comfortableprivate places, with room for friends or family.',
-    price: '$350//night',
+    price: '$350/night',
     id: uuidv4(),
   },
 ];

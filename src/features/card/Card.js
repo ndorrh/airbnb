@@ -1,14 +1,18 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import './Card.css';
 
-function Card({ src, title, description, price }) {
+function Card({ props }) {
+  const {
+    src, title, description, price,
+  } = props;
   return (
-    <div className="cards">
+    <div className="card">
       <img src={src} alt="" />
-      <div>
-        <h1>{title}</h1>
-        <p>{description}</p>
-        <p>{price}</p>
+      <div className="card__info">
+        <h2>{title}</h2>
+        <h4>{description}</h4>
+        <h3>{price}</h3>
       </div>
     </div>
   );

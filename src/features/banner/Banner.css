@@ -1,13 +1,15 @@
+/* stylelint-disable declaration-colon-newline-after */
 .banner {
-  height: 50vh;
+  height: 60vh;
   position: relative;
-  background: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/16650/images/gOnh8mRilOaVPydk3DAi_dining_table_and_kitchen.jpg") center center;
+  background: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/16650/images/gOnh8mRilOaVPydk3DAi_dining_table_and_kitchen.jpg")
+    center center;
 }
 
 .banner__info {
   background-color: black;
   color: white;
-  padding: 25vh 50px 50px 40px;
+  padding: 10% 1.5% 1.5% 1%;
   width: 400px;
 }
 

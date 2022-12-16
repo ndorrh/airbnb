@@ -1,0 +1,47 @@
+/* stylelint-disable declaration-colon-newline-after */
+.banner {
+  height: 60vh;
+  position: relative;
+  background: url("https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/blogs/16650/images/gOnh8mRilOaVPydk3DAi_dining_table_and_kitchen.jpg")
+    center center;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  padding: 10% 1.5% 1.5% 1%;
+  width: 400px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchBtn {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+a {
+  text-decoration: none;
+}

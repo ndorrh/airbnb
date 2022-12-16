@@ -11,10 +11,12 @@ function SearchResults({ prop }) {
   return (
     <div className="Search__info">
       <img src={src} alt={title} />
-      <FavoriteBorderIcon className="SearchResults__heart" />
       <div className="searchResults__info">
         <div className="searchResults__infoTop">
-          <p>{location}</p>
+          <div className="heartAndLocation">
+            <p>{location}</p>
+            <FavoriteBorderIcon className="SearchResults__heart" />
+          </div>
           <h3>{title}</h3>
           <p>___</p>
           <p>{description}</p>

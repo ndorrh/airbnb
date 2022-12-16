@@ -50,4 +50,17 @@ const rooms = [
   },
 ];
 
+export const searchResults = [
+  {
+    src: 'https://a0.muscache.com/im/pictures/fdb46962-10c1-45fc-a228-d0b055411448.jpg?im_w=720',
+    location: 'Private room in centre of London',
+    title: 'Stay at this spacious Edwardian House',
+    description: '1 guest . 1 bathroom . 1 bed . 1.5 shared bathrooms . wifi . kitchen . free parking . Washing machine',
+    star: 4.73,
+    price: '$30/ night',
+    total: '$117/ total',
+    id: uuidv4(),
+  },
+];
+
 export default rooms;

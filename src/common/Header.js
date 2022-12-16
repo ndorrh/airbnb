@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import LanguageIcon from '@mui/icons-material/Language';
@@ -8,11 +9,14 @@ import { Avatar } from '@mui/material';
 export default function Header() {
   return (
     <header className="header">
-      <img
-        className="header__icon"
-        src="https://miro.medium.com/max/1400/0*NChTo-XqLOxLabIW"
-        alt="airbnb logo"
-      />
+      <Link to="/">
+        <img
+          className="header__icon"
+          src="https://miro.medium.com/max/1400/0*NChTo-XqLOxLabIW"
+          alt="airbnb logo"
+        />
+      </Link>
+
       <div className="header__center">
         <input type="text" />
         <SearchIcon />

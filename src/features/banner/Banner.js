@@ -1,10 +1,13 @@
 /* eslint-disable no-unused-expressions */
+import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
 import React, { useState } from 'react';
 import './Banner.css';
 import Search from './Search';
 
 export default function Banner() {
+  const navigate = useNavigate();
+
   const [state, setState] = useState(
     {
       hide: 'Show Dates',
@@ -37,7 +40,7 @@ export default function Banner() {
       <div className="banner__info">
         <h1>Get out and stretch your imagination</h1>
         <h5>Plan a different type of Getaway to uncover the hidden gems near you</h5>
-        <Button variant="outlined">Explore Nearby</Button>
+        <Button variant="outlined" onClick={() => navigate('/searchPage')}>Explore Nearby</Button>
       </div>
     </div>
   );

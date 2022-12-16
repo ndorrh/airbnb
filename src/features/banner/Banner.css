@@ -41,3 +41,7 @@
   text-transform: inherit !important;
   color: #ff7779 !important;
 }
+
+a {
+  text-decoration: none;
+}

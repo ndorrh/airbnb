@@ -4,18 +4,13 @@ import StarIcon from '@mui/icons-material/Star';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import './SearchResults.css';
 
-function SearchResults({
-  img,
-  location,
-  title,
-  description,
-  star,
-  price,
-  total,
-}) {
+function SearchResults({ prop }) {
+  const {
+    src, location, title, description, star, price, total,
+  } = prop;
   return (
     <div className="Search__info">
-      <img src={img} alt={title} />
+      <img src={src} alt={title} />
       <FavoriteBorderIcon className="SearchResults__heart" />
       <div className="searchResults__info">
         <div className="searchResults__infoTop">
